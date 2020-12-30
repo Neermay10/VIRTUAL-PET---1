@@ -27,6 +27,7 @@ function setup() {
 
 
 function draw() {  
+  if(foodS !== undefined)
   background(46, 139, 87);
 
   if(keyWentDown(UP_ARROW)){
