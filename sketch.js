@@ -33,6 +33,9 @@ function draw() {
     writeStock(foodS);
     dog.addImage(happyDog);
   }
+  if(keyWentUp(UP_ARROW)){
+    dog.addImage(dogImg);
+  }
 
   drawSprites();
   //add styles here
