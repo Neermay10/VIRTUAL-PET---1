@@ -6,6 +6,8 @@ var database;
 var foodS;
 var foodStock;
 
+if(foodS !== undefined)
+
 function preload()
 {
   //load images here
@@ -27,7 +29,7 @@ function setup() {
 
 
 function draw() {  
-  if(foodS !== undefined)
+  
   background(46, 139, 87);
 
   if(keyWentDown(UP_ARROW)){
